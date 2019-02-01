@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=quote.css.map */
+.twit { display: -ms-grid; display: grid; -ms-grid-columns: (10%)[2]; grid-template-columns: repeat(2, 10%); }
+
+.Jo { width: 30%; height: auto; }
+
+.quote { width: 5%; height: auto; }
+
+.tw { font-size: 10px; }
+
+.content { padding-left: 100px; padding-bottom: 100px; }
+
+.txt { font-size: 20px; width: 350px; }
+/*# sourceMappingURL=quote.css.map */
