@@ -1,0 +1,50 @@
+@mixin liste($justify){
+    display:flex;
+    justify-content: $justify;
+    }
+
+    %menu{
+        display: flex;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    %nav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-content: baseline;
+        margin-bottom: 20px;
+    }
+
+.navbar{
+    @extend %nav;
+    background-color: #A7A37E;
+    color:#EFECCA;
+    font-family: 'Open Sans', sans-serif;   
+    border: 1px solid black;
+}
+
+.foot1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.foot2{
+    display: flex;
+    justify-content: flex-end;
+ 
+   
+}
+
+.liste1{
+    @include liste(flex-start);
+   }  
+
+.liste2{
+    @include liste(flex-end);
+    margin-right: 20px;
+   }
+
+ul{
+    list-style: none;
+}
